@@ -1,0 +1,39 @@
+﻿@model List<ContactProject.Models.Login>
+
+@section styles{
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.rtl.min.css">
+}
+
+@{
+    var Counter = 1;
+}
+
+<div class="row justify-content-center">
+    <h1 class="fw-bold text-center mb-5 mt-5">لیست کاربران </h1>
+    <table class="table w-50 text-center">
+        <thead>
+            <tr>
+                <th scope="col">رمز ورود</th>
+                <th scope="col">نام کاربری</th>
+                <th scope="col">#</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.password</td>
+                    <td>@item.UserName</td>
+                    <th scope="row">@Counter</th>
+                </tr>
+                Counter += 1;
+            }
+
+
+
+        </tbody>
+    </table>
+</div>
+
