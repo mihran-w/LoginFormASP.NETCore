@@ -22,8 +22,16 @@ namespace ContactProject.Controllers
         [HttpPost]
         public IActionResult Login(Login login)
         {
-            DataBase.DataBase.logins.Add(login);
-            return Redirect("/home");
+            if(login.UserName == "Mihranw")
+            {
+                TempData["isSuccess"] = true;
+                DataBase.DataBase.logins.Add(login);
+                return Redirect("/home/users");
+            }
+            else
+            {
+                return Redirect("/home");
+            }
         }
     }
 }

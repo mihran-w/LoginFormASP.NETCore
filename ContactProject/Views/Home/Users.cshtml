@@ -6,9 +6,30 @@
 
 @{
     var Counter = 1;
+
+    var isSuccess = TempData["isSuccess"];
+
+    ViewData["Title"] = "لیست کاربران";
 }
 
 <div class="row justify-content-center">
+
+    @if (isSuccess != null)
+    {
+        <div class="alert alert-success m-5">
+            @foreach (var item in Model)
+            {
+                <h1>خوش آمدی <span>@item.UserName</span> جان !</h1>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger m-5">
+            <h1>نشناختیم شما؟</h1>
+        </div>
+    }
+
     <h1 class="fw-bold text-center mb-5 mt-5">لیست کاربران </h1>
     <table class="table w-50 text-center">
         <thead>
