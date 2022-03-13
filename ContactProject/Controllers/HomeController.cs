@@ -22,7 +22,7 @@ namespace ContactProject.Controllers
         [HttpPost]
         public IActionResult Login(Login login)
         {
-            if(login.UserName == "Mihranw")
+            if(login.UserName == "mihranw")
             {
                 TempData["isSuccess"] = true;
                 DataBase.DataBase.logins.Add(login);
