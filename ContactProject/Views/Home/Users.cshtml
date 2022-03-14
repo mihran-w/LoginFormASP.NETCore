@@ -45,7 +45,11 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.password</td>
+                    <td>
+                        <pass>
+                            @item.password
+                        </pass>
+                    </td>
                     <td>@item.UserName</td>
                     <th scope="row">@Counter</th>
                 </tr>
