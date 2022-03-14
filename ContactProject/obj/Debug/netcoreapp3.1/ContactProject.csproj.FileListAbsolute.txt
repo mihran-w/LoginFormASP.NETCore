@@ -108,3 +108,4 @@ D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\D
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Users.cshtml.g.cs
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Login.cshtml.g.cs
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MetaLinks.cshtml.g.cs
+D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Table\Table.cshtml.g.cs

@@ -5,7 +5,6 @@
 }
 
 @{
-    var Counter = 1;
 
     var isSuccess = TempData["isSuccess"];
 
@@ -31,34 +30,14 @@
     }
 
     <h1 class="fw-bold text-center mb-5 mt-5">لیست کاربران </h1>
-    <table class="table w-50 text-center">
-        <thead>
-            <tr>
-                <th scope="col">کلمه عبور</th>
-                <th scope="col">نام کاربری</th>
-                <th scope="col">#</th>
 
-            </tr>
-        </thead>
-        <tbody>
+    @await Component.InvokeAsync("Table")
 
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        <pass>
-                            @item.password
-                        </pass>
-                    </td>
-                    <td>@item.UserName</td>
-                    <th scope="row">@Counter</th>
-                </tr>
-                Counter += 1;
-            }
+    <br />
+    <br />
+    <br />
 
+    <vc:table></vc:table>
 
-
-        </tbody>
-    </table>
 </div>
 
