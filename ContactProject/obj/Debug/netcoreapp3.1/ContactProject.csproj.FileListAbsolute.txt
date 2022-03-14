@@ -106,3 +106,5 @@ D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\bin\D
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\ContactProject.csproj.CoreCompileInputs.cache
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\ContactProject.MvcApplicationPartsAssemblyInfo.cache
 D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Users.cshtml.g.cs
+D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Login.cshtml.g.cs
+D:\Learning\Back-End\02-ASP.net Core\Project\ContactProject\ContactProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MetaLinks.cshtml.g.cs
